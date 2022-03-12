@@ -14,6 +14,7 @@ public class ConsumerFunctional {
 	static class Customer {
 		private String nameCustomer;
 		private int ageCustomer;
+		private int phoneNumber;
 
 		public Customer(String nameCustomer, int ageCustomer) {
 			super();
@@ -23,6 +24,13 @@ public class ConsumerFunctional {
 
 		public Customer() {
 			super();
+		}
+
+		public Customer(String nameCustomer, int ageCustomer, int phoneNumber) {
+			super();
+			this.nameCustomer = nameCustomer;
+			this.ageCustomer = ageCustomer;
+			this.phoneNumber = phoneNumber;
 		}
 
 	}
